@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 50px;
+}
+
+.botones {
+
+    padding: 35px 0px;
+    display: flex;
+    justify-content: center;
+
+    
+
+    @include respond-to($bp-lg) {
+
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    @include respond-to($bp-xl) {
+
+        display: flex;
+        justify-content: flex-start;
+    }
+}

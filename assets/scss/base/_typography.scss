@@ -1,0 +1,87 @@
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: $medium;
+    color: $light;
+    font-weight: $negrita;
+
+
+}
+
+span {
+    color: $primary;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: $negrita;
+    font-style: italic;
+    color: $light;
+    font-size: 50px;
+
+
+    @include respond-to($bp-sm) {
+
+        font-size: 50px;
+    }
+
+    @include respond-to($bp-md) {
+
+        font-size: $xx-large;
+    }
+
+    @include respond-to($bp-lg) {
+
+        font-size: $xx-large;
+    }
+
+    @include respond-to($bp-xl) {
+
+        font-size: $xx-large;
+    }
+}
+
+i {
+    padding-top: 200px;
+    color: $light;
+    font-size: $x-large;
+
+    @include respond-to($bp-sm) {
+
+        font-size: $xx-large;
+    }
+}
+
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-size: $medium;
+    color:$dark;
+    font-weight: $delgada;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: $small;
+    color:$dark;
+    font-weight: $regular;
+    line-height : 30px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: $x-large;
+    font-weight: $negrita;
+    font-style: italic;
+    margin: 0px;
+    color:$dark;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: $large;
+    font-weight: $regular;
+    margin: 0px;
+    color:$primary;
+}
+

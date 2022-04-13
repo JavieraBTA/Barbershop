@@ -1,0 +1,47 @@
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap');
+
+//colors
+
+$white: #fff;
+$platinum: #e6e7e7;
+$lightgray: #d1d1d1;
+$fuzzywuzzy: #e56353;
+$ruddypink: #d76c69;
+$spanishpink: #ecbcba;
+$eerieblack: #121619;
+$raisinblack: #222323;
+$nickel: #6c6e70;
+
+//font-sizes
+
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+//font-weight
+
+$regular: 400;
+$delgada: 300;
+$negrita: 900;
+
+//variables bootstrap
+
+$primary: $ruddypink;
+$secondary: $nickel;    
+$light: $white;
+$dark: $eerieblack;
+
+$navbar-nav-link-padding-x: 15px;
+
+$bp-sm: 500px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+
+$pagination-color: $dark;
+$pagination-border-radius: 50px;
+$pagination-active-bg: $dark

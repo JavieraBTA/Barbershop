@@ -1,0 +1,44 @@
+.navbar {
+
+        padding-left: 25px;
+        padding-right: 25px;
+    
+
+    @include respond-to($bp-sm) {
+
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    @include respond-to($bp-lg) {
+
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    @include respond-to($bp-xl) {
+
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
+
+.paginacion {
+
+background-color: $lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+@include respond-to($bp-lg) {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@include respond-to($bp-xl) {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+}

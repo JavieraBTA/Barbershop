@@ -1,0 +1,46 @@
+.cabecera {
+
+    text-align: center;
+
+
+    &-imagen {
+        background-image: url('../img/post-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-top: 320px;
+    padding-bottom: 70px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-position: center;
+    
+
+    @include respond-to($bp-sm) {
+
+        padding-top: 320px;
+        padding-bottom: 70px;
+        padding-left: 65px;
+        padding-right: 65px;
+        background-position: center;
+    }
+
+    @include respond-to($bp-lg) {
+
+        padding-top: 320px;
+        padding-bottom: 50px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    @include respond-to($bp-xl) {
+
+        padding-top: 320px;
+        padding-bottom: 50px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    }
+
+
+}

@@ -1,0 +1,19 @@
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: $dark;
+    padding: 100px 100px;
+
+    img {
+
+        width: 100px;
+    }
+
+    @include respond-to($bp-lg) {
+
+
+        img {
+            width: 150px;
+        }
+    }
+}
